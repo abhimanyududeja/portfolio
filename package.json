@@ -1,0 +1,39 @@
+{
+  "name": "abhimanyu-dudeja-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Abhimanyu Dudeja - MS Computer Science student at Northeastern University",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "lint": "eslint js/",
+    "lint:fix": "eslint js/ --fix",
+    "format": "prettier --write \"**/*.{html,css,js,json,md}\"",
+    "format:check": "prettier --check \"**/*.{html,css,js,json,md}\"",
+    "validate": "html-validate \"*.html\"",
+    "start": "npx serve .",
+    "build": "echo 'Static site - no build required'"
+  },
+  "keywords": [
+    "portfolio",
+    "personal-website",
+    "northeastern-university",
+    "data-engineering",
+    "machine-learning",
+    "html5",
+    "css3",
+    "es6"
+  ],
+  "author": "Abhimanyu Dudeja <dudeja.ab@northeastern.edu>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abhimanyududeja/abhimanyududeja.github.io"
+  },
+  "homepage": "https://abhimanyududeja.github.io",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "html-validate": "^8.18.0",
+    "serve": "^14.2.1"
+  }
+}

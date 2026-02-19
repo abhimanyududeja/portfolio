@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Abhimanyu Dudeja" />
+    <meta
+      name="description"
+      content="Projects by Abhimanyu Dudeja - Machine Learning, Data Engineering, and Full Stack Development projects."
+    />
+    <meta
+      name="keywords"
+      content="Abhimanyu Dudeja, Projects, Machine Learning, Data Engineering, Brain Tumor Detection"
+    />
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <title>Projects | Abhimanyu Dudeja</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/projects.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav-container">
+        <a href="./index.html" class="nav-logo">
+          <span class="logo-text">AD</span>
+        </a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./projects.html" class="nav-link nav-link-active"
+              >Projects</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="./experience.html" class="nav-link">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="./journey.html" class="nav-link">My Journey</a>
+          </li>
+        </ul>
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-label="Toggle navigation menu"
+        >
+          <span class="hamburger"></span>
+        </button>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <section class="page-header">
+        <h1 class="page-title">My Projects</h1>
+        <p class="page-subtitle">
+          A collection of my work in machine learning, data engineering, and
+          software development.
+        </p>
+      </section>
+
+      <section class="projects-section">
+        <div class="projects-filter">
+          <button
+            type="button"
+            class="filter-btn filter-btn-active"
+            data-filter="all"
+          >
+            All Projects
+          </button>
+          <button type="button" class="filter-btn" data-filter="ml">
+            Machine Learning
+          </button>
+          <button type="button" class="filter-btn" data-filter="data">
+            Data Engineering
+          </button>
+          <button type="button" class="filter-btn" data-filter="web">
+            Web Development
+          </button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card" data-category="ml">
+            <div class="project-image-wrapper">
+              <div class="project-placeholder project-placeholder-brain">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  class="project-placeholder-icon"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M12 2a9 9 0 0 0-9 9c0 4.17 2.84 7.67 6.69 8.69a.5.5 0 0 0 .62-.36l.69-2.76a.5.5 0 0 0-.33-.58A5 5 0 0 1 7 11a5 5 0 0 1 10 0 5 5 0 0 1-3.67 4.82.5.5 0 0 0-.33.58l.69 2.76a.5.5 0 0 0 .62.36A9 9 0 0 0 12 2z"
+                  />
+                  <circle cx="9" cy="10" r="1" fill="currentColor" />
+                  <circle cx="15" cy="10" r="1" fill="currentColor" />
+                </svg>
+              </div>
+              <div class="project-overlay">
+                <span class="project-tag">Published Research</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h2 class="project-title">
+                Multi-Stage Brain Tumor Classification
+              </h2>
+              <p class="project-date">Jan 2025 – May 2025</p>
+              <p class="project-description">
+                Developed a deep learning model using CNN architecture with
+                TensorFlow/Keras that classifies brain tumors with 97% accuracy.
+                Implemented batch normalization, dropout regularization, and
+                advanced data augmentation techniques. Published in ICRTC 2025.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">TensorFlow</span>
+                <span class="tech-tag">Keras</span>
+                <span class="tech-tag">CNN</span>
+                <span class="tech-tag">Python</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://link.springer.com/chapter/10.1007/978-981-96-6348-4_34"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    class="link-icon"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                    />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                  Read Paper
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="ml">
+            <div class="project-image-wrapper">
+              <div class="project-placeholder project-placeholder-eye">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  class="project-placeholder-icon"
+                  aria-hidden="true"
+                >
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                  <circle cx="12" cy="12" r="3" />
+                </svg>
+              </div>
+              <div class="project-overlay">
+                <span class="project-tag">Healthcare AI</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h2 class="project-title">Diabetic Retinopathy Detection</h2>
+              <p class="project-date">May 2024 – Jun 2024</p>
+              <p class="project-description">
+                Built a multi-class CNN classifier trained on 35,000+ retinal
+                images achieving 92% accuracy. Applied transfer learning
+                techniques and improved validation accuracy by 15% through
+                hyperparameter optimization.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">CNN</span>
+                <span class="tech-tag">Transfer Learning</span>
+                <span class="tech-tag">OpenCV</span>
+                <span class="tech-tag">Python</span>
+              </div>
+              <div class="project-links">
+                <span class="project-link project-link-info">
+                  Academic Project
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="web">
+            <div class="project-image-wrapper">
+              <div class="project-placeholder project-placeholder-calendar">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  class="project-placeholder-icon"
+                  aria-hidden="true"
+                >
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                  <line x1="16" y1="2" x2="16" y2="6" />
+                  <line x1="8" y1="2" x2="8" y2="6" />
+                  <line x1="3" y1="10" x2="21" y2="10" />
+                </svg>
+              </div>
+              <div class="project-overlay">
+                <span class="project-tag">Java MVC</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h2 class="project-title">Multi-Calendar Application</h2>
+              <p class="project-date">Oct 2025 – Dec 2025</p>
+              <p class="project-description">
+                Achieved 90%+ test coverage building a calendar application supporting 
+                multiple calendars, recurring events, and various operational modes 
+                using MVC architecture with Builder, Command, and Decorator patterns. 
+                Implemented XML/CSV import-export and headless mode for automated scheduling.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Java Swing</span>
+                <span class="tech-tag">MVC</span>
+                <span class="tech-tag">JUnit</span>
+              </div>
+              <div class="project-links">
+                <span class="project-link project-link-info">
+                  Academic Project
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="data">
+            <div class="project-image-wrapper">
+              <div class="project-placeholder project-placeholder-music">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  class="project-placeholder-icon"
+                  aria-hidden="true"
+                >
+                  <path d="M9 18V5l12-2v13" />
+                  <circle cx="6" cy="18" r="3" />
+                  <circle cx="18" cy="16" r="3" />
+                </svg>
+              </div>
+              <div class="project-overlay">
+                <span class="project-tag">Database Design</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h2 class="project-title">Music Library Database System</h2>
+              <p class="project-date">Apr 2023</p>
+              <p class="project-description">
+                Designed and implemented a fully normalized MySQL database
+                system managing 10,000+ songs. Utilized complex joins,
+                subqueries, indexing strategies, and query optimization
+                techniques for efficient data retrieval.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">Database Design</span>
+                <span class="tech-tag">Indexing</span>
+              </div>
+              <div class="project-links">
+                <span class="project-link project-link-info">
+                  Academic Project
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="data">
+            <div class="project-image-wrapper">
+              <div class="project-placeholder project-placeholder-etl">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  class="project-placeholder-icon"
+                  aria-hidden="true"
+                >
+                  <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                  <path d="M2 17l10 5 10-5" />
+                  <path d="M2 12l10 5 10-5" />
+                </svg>
+              </div>
+              <div class="project-overlay">
+                <span class="project-tag">Internship</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h2 class="project-title">AWS ETL Pipeline Optimization</h2>
+              <p class="project-date">Jul 2023 – Aug 2023</p>
+              <p class="project-description">
+                Optimized cloud-based ETL pipeline at Deloitte using AWS Glue
+                and SQL, increasing data ingestion speed by 40%. Developed
+                automated Power BI dashboards that reduced debugging time by
+                30%.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">AWS Glue</span>
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">Power BI</span>
+                <span class="tech-tag">ETL</span>
+              </div>
+              <div class="project-links">
+                <span class="project-link project-link-info">
+                  Internship Project
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="web">
+            <div class="project-image-wrapper">
+              <div class="project-placeholder project-placeholder-web">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  class="project-placeholder-icon"
+                  aria-hidden="true"
+                >
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                  <line x1="8" y1="21" x2="16" y2="21" />
+                  <line x1="12" y1="17" x2="12" y2="21" />
+                </svg>
+              </div>
+              <div class="project-overlay">
+                <span class="project-tag">Portfolio</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h2 class="project-title">Personal Portfolio Website</h2>
+              <p class="project-date">Jan 2025</p>
+              <p class="project-description">
+                Built this responsive portfolio website using vanilla HTML5,
+                CSS3, and ES6+ JavaScript modules. Features include typing
+                animations, project filtering, and an interactive journey
+                timeline.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">ES6+</span>
+                <span class="tech-tag">Flexbox</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/abhimanyududeja/abhimanyududeja.github.io"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="link-icon"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                    />
+                  </svg>
+                  View Code
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p class="footer-text">&copy; 2025 Abhimanyu Dudeja</p>
+        <p class="footer-contact">
+          <a href="mailto:dudeja.ab@northeastern.edu" class="footer-link"
+            >dudeja.ab@northeastern.edu</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/projects.js"></script>
+  </body>
+</html>
