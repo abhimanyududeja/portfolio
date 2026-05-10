@@ -262,6 +262,30 @@
   backdrop-filter: blur(10px);
 }
 
+.research-card + .research-card {
+  margin-top: var(--space-6);
+}
+
+.research-links {
+  display: flex;
+  gap: var(--space-4);
+  justify-content: center;
+  margin-top: var(--space-8);
+  flex-wrap: wrap;
+}
+
+.research-links .btn-secondary {
+  color: var(--color-white);
+  border-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.research-links .btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
 .research-badge {
   display: inline-block;
   padding: var(--space-1) var(--space-3);
