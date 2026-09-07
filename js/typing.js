@@ -120,9 +120,10 @@ function initTypingAnimation() {
 
   // Define the roles/titles to cycle through
   const roles = [
-    "Data Engineer.",
-    "ML Researcher.",
+    "Software Engineer.",
     "Full Stack Developer.",
+    "ML Researcher.",
+    "Data Engineer.",
     "Problem Solver.",
   ];
 
